@@ -20,6 +20,6 @@ sudo systemctl restart open5gs-sgwud
 cd $SRCDIR
 wget https://raw.githubusercontent.com/open5gs/open5gs/main/misc/db/open5gs-dbctl
 chmod +x open5gs-dbctl
-./open5gs-dbctl add 001010123456789 00112233445566778899aabbccddeeff 63BFA50EE6523365FF14C1F45F88737D  # IMSI,K,OPC
-./open5gs-dbctl type 001010123456789 1  # APN type IPV4
+./open5gs-dbctl add 208930000000001 3f3f473f2f3fd0943f3f3f3f097c6862 e9be7fb89bb01978e67972ca8580079e  # IMSI,K,OPC
+./open5gs-dbctl type 208930000000001 1  # APN type IPV4
 touch $SRCDIR/open5gs-setup-complete
